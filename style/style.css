@@ -1,8 +1,146 @@
 *{
     margin: 0px;
     padding: 0px;
-0}
-.cursor{
+}
+.menu-container{
+    background-color: rgb(83, 72, 72);
+    padding: 20px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.menus{
+    display: flex;
+    
+}
+.logo-photo{
+    width: 120px;
+}
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.item:hover{
     color: blue;
-    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"),auto;
+}
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid black; */
+    background-image: url(../Background/background.png),
+    linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    color: rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btm{
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius:3px;
+    cursor: pointer;
+}
+.btm:hover{
+    color:rgb(255, 230, 0);
+}
+
+
+
+
+.h{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 15px;
+}
+.banner-img2{
+    width: 250px;
+    margin-top: 20px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+    /* border: 2px solid black; */
+}
+.btm1{
+    padding: 10px 15px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius:3px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.banner-text2{
+    margin-top: 20px;
+}
+.p{
+    margin-top: 15px;
+}
+.btm1:hover{
+    color:rgb(255, 230, 0);
+}
+.service-container{
+    background-image: url(../Background/background.png);
+    background-color: rgb(24, 23, 23);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.box1{
+    /* border: 2px solid rgb(255, 0, 0); */
+    height: 340px;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    box-shadow: 1px 1px 50px rgb(94, 88, 88);
+    border-radius: 10px;
+    
+}
+.ico1{
+    padding: 20px;
+    width: 70px;
+}
+.btn2{
+    padding: 10px 15px;
+    background-color: brown;
+    color: white;
+    border: none;
+    border-radius:3px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.ah{
+    text-align: center;
+    font-size: 40px;
+    background-image: url(../Background/background.png);
+    background-color: rgb(24, 23, 23);
+    
+    padding-top: 15px;
+    color:white;
+}
+.box-description{
+    padding: 10px;
 }

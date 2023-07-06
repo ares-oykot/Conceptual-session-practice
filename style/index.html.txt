@@ -1,0 +1,76 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <h1><bdo dir="rtl">Bangladesh</bdo></h1>
+    <h2><abbr title="Khalifa r maye">MK</abbr></h2> 
+    <br>
+    <label for="disk">PG</label>
+    <meter id="disk" value="0.5"></meter>
+    <progress id="">
+    </progress>
+    <br>
+    <span>Temp :</span><meter value="90" low="25" high="80" min="0" max="100"></meter>
+    <br>
+    <span>Downloading :</span><progress value="60" max="100"></progress>
+    <br>
+    <details>
+        <summary>Hello</summary>
+        <p>Hello My name is Soykot</p>
+    </details>
+    <br>
+    <h1 class="cursor">Don't click</h1>
+    <br>
+    <div class="container">
+        <div class="box">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+    </div>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+css
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.cursor{
+    color: rgb(0, 247, 255);
+    cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/sad.png"),auto;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    flex-direction: row-reverse;
+
+}
+.box{
+    padding: 20px;
+    background-color: rgb(255, 0, 0);
+    width: 110px;
+}
+.box2{
+    background-color: rgb(72, 255, 0);
+}
+.box3{
+    background-color: blue;
+}
